@@ -1,7 +1,8 @@
+const alive = require('./alive.js')
+const config = require('./config.js');
 const Eris = require("eris");
-const on = require('./on.js')
 
-const bot = new Eris(process.env.TOKEN);
+const bot = new Eris(config.TOKEN);
 
 bot.on("error", (err) => {
    console.error(err);
