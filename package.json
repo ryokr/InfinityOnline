@@ -1,13 +1,13 @@
 {
-   "name": "infinityonline",
+   "name": "set-status",
    "version": "1.0.0",
    "description": "Keep ypou Discord profile online forever",
    "main": "index.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
    },
-   "author": "",
-   "license": "ISC",
+   "author": "RyoKR",
+   "license": "MIT",
    "dependencies": {
       "eris": "^0.17.2"
    }
